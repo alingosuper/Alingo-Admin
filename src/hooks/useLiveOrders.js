@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { db } from '../firebaseConfig';
+import { db } from '@alingo/core-lib/firebase';
 import { collection, query, onSnapshot, orderBy } from 'firebase/firestore';
 
 export const useLiveOrders = () => {

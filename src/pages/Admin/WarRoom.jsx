@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { initializeMasterShield } from '../../security/master_shield';
+import { initializeMasterShield } from '@alingo/core-security/master_shield';
 
 const WarRoom = () => {
   const [serviceStatus, setServiceStatus] = useState({});

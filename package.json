@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@alingo/finance-core": "file:../Alingo-Finance-Core",
     "clsx": "^1.2.1",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
